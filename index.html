@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- FONT AWESOME CDN -->
+    <script
+      src="https://kit.fontawesome.com/eea3fcba86.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div id="nav-con">
+      <div id="scroll-container">
+        <div id="scroll-text">
+          <p class="js-nametag">60% OFF SPRING SALE</p>
+          <p class="js-nametag">10% EXTRA OFF WITH CODE: SAVE10</p>
+        </div>
+      </div>
+
+      <header class="header">
+        <!-- <div class="container"> -->
+        <div class="logo-div">
+          <a class="logo" href="https://www.testyourintolerance.com"
+            ><img
+              src="https://www.testyourintolerance.com/wp-content/uploads/2021/07/tyi-logo.svg"
+              alt="testyourintolerance-logo"
+          /></a>
+        </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        <!-- </div> -->
+
+        <!-- Dropdown Menu -->
+        <ul class="menu">
+          <li class="mobile-only-link">
+            <a href="https://www.testyourintolerance.com/shop/">Shop now</a>
+          </li>
+
+          <!-- Dropdown div -->
+          <div class="dropdown-div">
+            <li>
+              <a class="dropdown-button">
+                <label class="drop-icon" for="drop-btn">
+                  <p>Tests</p>
+                  <i class="fa fa-caret-down"></i>
+                </label>
+              </a>
+            </li>
+            <input class="drop-btn" type="checkbox" id="drop-btn" />
+
+            <ul id="tests" class="dropdown">
+              <div class="flex-container container">
+                <div>
+                  <a
+                    href="https://www.testyourintolerance.com/allergy-intolerance-tests/"
+                    ><img
+                      style="width: 135px"
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/08/allergy-intolerance-our-tests.png"
+                      alt="allergy-intolerance-tests"
+                  /></a>
+                  <li>
+                    <a
+                      class="dropdown-header"
+                      href="https://www.testyourintolerance.com/allergy-intolerance-tests/"
+                    >
+                      <h4>Allergy & intolerance tests</h4>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/allergy-test/"
+                      >Allergy test</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/intolerance-test/"
+                      >Intolerance test</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/allergy-intolerance-test/"
+                      >Allergy & intolerance test</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/allergy-intolerance-test-plus/"
+                      >Allergy & intolerance test plus</a
+                    >
+                  </li>
+                </div>
+
+                <div>
+                  <a
+                    href="https://www.testyourintolerance.com/sensitivity-tests/"
+                    ><img
+                      style="width: 135px"
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/08/sensitivity-our-tests.png"
+                      alt="allergy-intolerance-tests"
+                  /></a>
+                  <li>
+                    <a
+                      class="dropdown-header"
+                      href="https://www.testyourintolerance.com/sensitivity-tests/"
+                    >
+                      <h4>Sensitivity tests</h4>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/sensitivity-test/"
+                      >Sensitivity test</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/sensitivity-test-plus/"
+                      >Sensitivity test plus</a
+                    >
+                  </li>
+                </div>
+
+                <div>
+                  <a href="https://www.testyourintolerance.com/health-tests/"
+                    ><img
+                      style="width: 135px"
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/08/health-our-tests.png"
+                      alt="health-tests"
+                  /></a>
+                  <li>
+                    <a
+                      class="dropdown-header"
+                      href="https://www.testyourintolerance.com/health-tests/"
+                    >
+                      <h4>Health tests</h4>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/vitamin-d-test/"
+                      >Vitamin d check</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/liver-function-test/"
+                      >Liver Function Test</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/iron-deficiency-test/"
+                      >Iron Deficiency Test</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.testyourintolerance.com/health-tests/"
+                      ><b>See more tests</b></a
+                    >
+                  </li>
+                </div>
+
+                <div id="pet-tests">
+                  <a
+                    href="https://www.testyourintolerance.com/product/my-dna-test/"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/10/mydna-multiple-min.png"
+                      alt="fitness-tests"
+                  /></a>
+                  <li>
+                    <a class="dropdown-header">
+                      <h4>Fitness tests</h4>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/my-dna-test/"
+                      >MyDNA Test</a
+                    >
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+
+          <!-- hidden on dekstop -->
+          <li class="mobile-only-link">
+            <a href="https://www.testyourintolerance.com/which-test-to-choose/"
+              >Which test?</a
+            >
+          </li>
+
+          <!-- Dropdown div -->
+          <div id="how-it-works" class="dropdown-div">
+            <li>
+              <a class="dropdown-button">
+                <label class="drop-icon" for="drop-btn2">
+                  <p>How it works</p>
+                  <i class="fa fa-caret-down"></i>
+                </label>
+              </a>
+            </li>
+
+            <input class="drop-btn2" type="checkbox" id="drop-btn2" />
+
+            <ul id="works-dropdown" class="dropdown">
+              <div class="flex-container container">
+                <div>
+                  <img
+                    src="https://www.testyourintolerance.com/wp-content/uploads/2021/09/blood-spot.svg"
+                    alt="blood-sample-image"
+                  />
+                  <li>
+                    <a class="dropdown-header">
+                      <h4>Taking the samples</h4>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.testyourintolerance.com/blood-sample/"
+                      >Blood sample
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.testyourintolerance.com/hair-sample/"
+                      >Hair sample</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.testyourintolerance.com/urine-sample/"
+                      >Urine sample</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.testyourintolerance.com/saliva-sample/"
+                      >Saliva sample</a
+                    >
+                  </li>
+                </div>
+
+                <div>
+                  <img
+                    src="https://www.testyourintolerance.com/wp-content/uploads/2021/07/process.svg"
+                    alt="order-process-image"
+                  />
+                  <li>
+                    <a class="dropdown-header">
+                      <h4>Order process</h4>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/allergy-intolerance-testing-order-process/"
+                      >Allergy & intolerance process</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/sensitivity-testing-order-process/"
+                      >Sensitivity process</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/health-testing-order-process/"
+                      >Health process</a
+                    >
+                  </li>
+                </div>
+
+                <div>
+                  <img
+                    src="https://www.testyourintolerance.com/wp-content/uploads/2021/07/science.svg"
+                    alt="science-image"
+                  />
+                  <li>
+                    <a class="dropdown-header">
+                      <h4>The science</h4>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/allergy-intolerance-testing-science/"
+                      >Allergy & intolerance science</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/sensitivity-testing-science/"
+                      >Sensitivity science</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/health-testing-science/"
+                      >Health science</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/white-paper-studies/"
+                      >White paper studies</a
+                    >
+                  </li>
+                </div>
+
+                <div>
+                  <img
+                    src="https://www.testyourintolerance.com/wp-content/uploads/2021/07/contact.svg"
+                    alt="contact-us-image"
+                  />
+                  <li>
+                    <a class="dropdown-header">
+                      <h4>Contact us</h4>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.testyourintolerance.com/contact-us/"
+                      >Live chat</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.testyourintolerance.com/contact-us/"
+                      >FAQ's</a
+                    >
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+
+          <!-- Dropdown div -->
+          <div id="advice-dropdown" class="dropdown-div">
+            <li>
+              <a class="dropdown-button">
+                <label class="drop-icon" for="drop-btn3">
+                  <p>Advice</p>
+                  <i class="fa fa-caret-down"></i>
+                </label>
+              </a>
+            </li>
+
+            <input class="drop-btn3" type="checkbox" id="drop-btn3" />
+
+            <ul class="dropdown">
+              <div class="flex-container container">
+                <div>
+                  <a
+                    href="https://www.testyourintolerance.com/which-test-to-choose/"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/09/which-test-svg.svg"
+                      alt="which-test-image"
+                  /></a>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/which-test-to-choose/"
+                      class="dropdown-header"
+                    >
+                      <h4>Which test?</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <a
+                    href="https://www.testyourintolerance.com/problem-foods-symptoms/"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/09/problem-foods2.svg"
+                      alt="problem-foods-image"
+                  /></a>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/problem-foods-symptoms/"
+                      class="dropdown-header"
+                    >
+                      <h4>Problem Foods<br />& Symptoms</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <a href="https://www.testyourintolerance.com/contact-us/"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/07/faqs.svg"
+                      alt="faqs-image"
+                  /></a>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/contact-us/"
+                      class="dropdown-header"
+                    >
+                      <h4>FAQ's</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <a
+                    href="https://www.testyourintolerance.com/nutritional-therapist/"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/07/therapist.svg"
+                      alt="therapist"
+                  /></a>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/nutritional-therapist/"
+                      class="dropdown-header"
+                    >
+                      <h4>Nutritional Therapist</h4>
+                    </a>
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <!-- Dropdown div -->
+          <div id="why-us-dropdown" class="dropdown-div">
+            <li>
+              <a class="dropdown-button">
+                <label class="drop-icon" for="drop-btn4">
+                  <p>Why us?</p>
+                  <i class="fa fa-caret-down"></i>
+                </label>
+              </a>
+            </li>
+
+            <input class="drop-btn4" type="checkbox" id="drop-btn4" />
+
+            <ul class="dropdown">
+              <div class="flex-container container">
+                <div>
+                  <a href="https://www.testyourintolerance.com/about-us/"
+                    ><img
+                      style="width: 105px"
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/07/tyi-logo-alt.svg"
+                      alt="testyourintolerance-logo-alt"
+                  /></a>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/about-us/"
+                      class="dropdown-header"
+                    >
+                      <h4>About us</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <a
+                    href="https://www.testyourintolerance.com/customer-promise/"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/09/problem-foods2.svg"
+                      alt="customer-promise-image"
+                  /></a>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/customer-promise/"
+                      class="dropdown-header"
+                    >
+                      <h4>Customer promise</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <a href="https://www.testyourintolerance.com/reviews/"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/07/testimonials.svg"
+                      alt="reviews-image"
+                  /></a>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/reviews/"
+                      class="dropdown-header"
+                    >
+                      <h4>Reviews</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <a href="https://www.testyourintolerance.com/our-app/"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2021/07/app.svg"
+                      alt="app-image"
+                  /></a>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/our-app/"
+                      class="dropdown-header"
+                    >
+                      <h4>Our app</h4>
+                    </a>
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+
+          <!-- COUNTRY SELECTOR Dropdown div -->
+          <div id="flag-dropdown" class="dropdown-div">
+            <li>
+              <a id="flag-button" class="dropdown-button">
+                <label class="drop-icon" for="drop-btn5">
+                  <img
+                    style="width: 50px"
+                    src="https://www.testyourintolerance.com/wp-content/uploads/2022/01/gbr.svg"
+                  />
+                </label>
+              </a>
+            </li>
+
+            <input class="drop-btn5" type="checkbox" id="drop-btn5" />
+
+            <ul class="dropdown">
+              <div class="flex-container container">
+                <div>
+                  <a class="svg-img" href="https://www.allergytestireland.com"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2022/01/ireland.svg"
+                  /></a>
+                  <li>
+                    <a
+                      class="dropdown-header"
+                      href="https://www.allergytestireland.com"
+                      ><h4>Ireland</h4></a
+                    >
+                  </li>
+                </div>
+
+                <div>
+                  <a class="svg-img" href="https://www.testyourintolerance.ca"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2022/01/canada.svg"
+                  /></a>
+                  <li>
+                    <a
+                      class="dropdown-header"
+                      href="https://www.testyourintolerance.ca"
+                      target="_blank"
+                      ><h4>Canada</h4></a
+                    >
+                  </li>
+                </div>
+                <div>
+                  <a class="svg-img" href="https://www.testyourintolerance.com"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2022/01/usa.svg"
+                  /></a>
+                  <li>
+                    <a
+                      class="dropdown-header"
+                      href="https://www.testyourintolerance.com"
+                      ><h4>USA</h4></a
+                    >
+                  </li>
+                </div>
+                <div>
+                  <a class="svg-img" href="https://www.testyourintolerance.com"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2022/01/australia.svg"
+                  /></a>
+                  <li>
+                    <a
+                      class="dropdown-header"
+                      href="https://www.testyourintolerance.com"
+                      ><h4>Australia</h4></a
+                    >
+                  </li>
+                </div>
+
+                <div>
+                  <a
+                    class="svg-img"
+                    href="https://www.testyourintolerance.co.nz"
+                    ><img
+                      src="https://www.testyourintolerance.com/wp-content/uploads/2022/01/new-zealand.svg"
+                  /></a>
+                  <li>
+                    <a
+                      class="dropdown-header"
+                      href="https://www.testyourintolerance.co.nz"
+                      ><h4>New Zealand</h4></a
+                    >
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+
+          <li class="desktop-link">
+            <a class="blog-link" href="/blog/">Blog</a>
+          </li>
+
+          <li class="mobile-only-link">
+            <a href="https://www.testyourintolerance.com/which-test-to-choose/"
+              >Contact Us</a
+            >
+          </li>
+
+          <!-- hidden on dekstop -->
+          <div class="mobile-bottom-links">
+            <a href="/my-account/" class="login-btn-2"
+              >Log in<i class="fas fa-user-circle"></i
+            ></a>
+            <a href="/contact-us">Track test</a>
+          </div>
+
+          <!-- Adding this to allow scrolling for the dropdown nav -->
+          <li class="mobile-only-link" style="padding-bottom: 300px"></li>
+        </ul>
+
+        <div class="nav-links-right">
+          <a href="/my-account/" class="login-btn"
+            ><i class="fas fa-user-circle"></i
+          ></a>
+          <!-- Getting amount of items in cart, and displaying in circle div fixed to cart icon, functions.php includes filter to update amount without window reloading -->
+          <a href="/cart/" class="cart-a">
+            <div class="cart-jay">
+              <i style="font-size: 2rem" class="fas fa-shopping-cart"></i>
+              <div class="circle">
+                <div class="circle-txt">
+                  <p class="amount-of-items">
+                    <!-- <?php echo $woocommerce->cart->cart_contents_count ?> -->
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="/shop/" style="padding: 0 0 0 5% !important"
+            ><button class="j-btn btn2 shop-btn">Shop now</button></a
+          >
+        </div>
+      </header>
+    </div>
+    <!-- END OF NAV -->
+    <script src="index.js" async defer></script>
+  </body>
+</html>
